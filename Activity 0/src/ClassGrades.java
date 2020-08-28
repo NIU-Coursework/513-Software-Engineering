@@ -1,5 +1,5 @@
 /**
- * A simple class to store values in a hash map and print the entries.
+ * A simple class to store values in a hash map and print the entries. Source code is based on the Fall 2020 Lecture 2 slides of CSCI - 513.
  * @author Ashiqur Rahman
  * @author_email ashiqur.r@niu.edu
  * @author_url https://ashiqur.com
