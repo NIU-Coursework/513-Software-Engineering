@@ -1,0 +1,4 @@
+# Ignore the IDE project files
+.idea
+out
+*.iml

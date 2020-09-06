@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Election</OriginalElement>
+  <nodes>
+    <node x="-30.0" y="-2.5">NewsFeed</node>
+    <node x="251.0" y="398.0">ElectionResults</node>
+    <node x="770.0" y="219.5">LeaderBoard</node>
+    <node x="565.5" y="253.5">Election</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Election" target="ElectionResults">
+      <point x="-74.5" y="20.0" />
+      <point x="360.0" y="300.0" />
+      <point x="0.0" y="-82.0" />
+    </edge>
+    <edge source="LeaderBoard" target="NewsFeed">
+      <point x="0.0" y="-60.5" />
+      <point x="880.0" y="80.0" />
+      <point x="110.0" y="-0.0" />
+    </edge>
+    <edge source="NewsFeed" target="ElectionResults">
+      <point x="0.0" y="82.5" />
+      <point x="80.0" y="480.0" />
+      <point x="-109.0" y="-0.0" />
+    </edge>
+    <edge source="Election" target="LeaderBoard">
+      <point x="0.0" y="26.5" />
+      <point x="640.0" y="400.0" />
+      <point x="880.0" y="400.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="Election" target="NewsFeed">
+      <point x="0.0" y="-26.5" />
+      <point x="640.0" y="120.0" />
+      <point x="110.0" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="1.3000000000000003" x="480.0" y="279.5" />
+  <SelectedNodes>
+    <node>Election</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
